@@ -7,4 +7,5 @@ spec:
   targets:
     - ./components/artist-lookup-componentPrasun.yaml
     - ./components/petstore-componentPrasun.yaml
+    - ./Test-repo/blob/main/nested-catalog-test.yaml
     
