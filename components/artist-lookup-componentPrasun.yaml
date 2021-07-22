@@ -1,5 +1,6 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
+cbreStatus: under review.
 metadata:
   name: custom-yaml-tags
   description: Artist Lookup
