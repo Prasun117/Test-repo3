@@ -36,7 +36,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-a
-  parameters:
-      required: - name
   system: artist-engagement-portal
   dependsOn: ['resource:artists-db']
