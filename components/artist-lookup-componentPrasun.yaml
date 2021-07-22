@@ -1,9 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Git-integration-test
+  name: custom-yaml-tags
   description: Artist Lookup
-  
   tags:
     - java
     - data
