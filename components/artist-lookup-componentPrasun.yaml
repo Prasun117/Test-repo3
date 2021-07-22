@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: Git-integration-test
   description: Artist Lookup
-  cbreStatus: under review 
+  
   tags:
     - java
     - data
@@ -36,5 +36,7 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-a
+  parameters:
+      - title: Fill in some steps
   system: artist-engagement-portal
   dependsOn: ['resource:artists-db']
