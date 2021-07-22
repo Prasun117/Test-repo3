@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: Git-integration-test
   description: Artist Lookup
-  cbre_status: under review 
+cbre_status: under review 
   tags:
     - java
     - data
