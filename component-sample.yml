@@ -1,0 +1,40 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: component-sample
+  description: Full blown sample yaml file that describes about the component
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/chennas/gwc139
+  tags:
+    - java
+    - javascript
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+    - url: https://example.com/group
+      title: Example Group
+      icon: group
+    - url: https://example.com/cloud
+      title: Link with Cloud Icon
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Dashboard
+      icon: dashboard
+    - url: https://example.com/help
+      title: Support
+      icon: help
+    - url: https://example.com/web
+      title: Website
+      icon: web
+    - url: https://example.com/alert
+      title: Alerts
+      icon: alert
+spec:
+  type: service
+  lifecycle: development
+  owner: team-cbre
+  subcomponentOf: artist-lookup
+  providesApis: [spotify]
+  consumesApis: [starwars-graphql]
+  dependsOn: ["component:CBRE-1-order", "resource:artists-db"]
