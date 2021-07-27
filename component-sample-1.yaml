@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: component-sample-1
+  status: underreview
   description: Full blown sample yaml file that describes about the component
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/chennas/gwc139
