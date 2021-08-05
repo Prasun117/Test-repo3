@@ -4,10 +4,10 @@ metadata:
   name: dummy-component-button
   description: Artist Lookup
   tags:
-    - ui
+    - angular
     - react
 spec:
-  type: service
+  type: ui-component
   lifecycle: experimental
   owner: team-a
   system: artist-engagement-portal
