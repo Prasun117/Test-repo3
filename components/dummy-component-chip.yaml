@@ -4,7 +4,7 @@ metadata:
   name: dummy-component-chip
   description: dummy storybook component
   tags:
-    - UI/UX
+    - UI
     - react
 spec:
   type: service
