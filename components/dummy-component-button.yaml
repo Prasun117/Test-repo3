@@ -4,7 +4,7 @@ metadata:
   name: dummy-component-button
   description: Artist Lookup
   tags:
-    - UI/UX
+    - ui
     - react
 spec:
   type: service
