@@ -4,7 +4,7 @@ metadata:
   name: dummy-component-progress
   description: dummy storybook component
   tags:
-    - UI/UX
+    - ui
     - react
 spec:
   type: service
