@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dummy-component-checkbox
+  description: dummy storybook component
+  tags:
+    - UI/UX
+    - react
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
+  system: artist-engagement-portal
+  dependsOn: ['resource:artists-db']
