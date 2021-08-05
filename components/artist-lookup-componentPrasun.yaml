@@ -6,9 +6,6 @@ metadata:
   tags:
     - java
     - data
-    - react
-    - node
-    - api
   links:
     - url: https://example.com/user
       title: Examples Users
