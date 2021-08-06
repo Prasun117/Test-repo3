@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Ui-Assets
+kind: uiassets
 metadata:
   name: dummy-component-button
   description: Artist Lookup
