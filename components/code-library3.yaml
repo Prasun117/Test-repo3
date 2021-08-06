@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Code-library
+metadata:
+  name: dummy-component-progress-code-library-xx
+  description: dummy storybook component
+  tags:
+    - ui
+    - react
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
+  system: artist-engagement-portal
+  dependsOn: ['resource:artists-db']
