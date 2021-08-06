@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Code-library
+kind: Codelibrary
 metadata:
   name: dummy-component-progress-code-library
   description: dummy storybook component
