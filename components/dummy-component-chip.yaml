@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: UiAssets
 metadata:
   name: dummy-component-chip
   description: dummy storybook component
