@@ -1,0 +1,75 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: component-sample-full-5
+  devxstate: Approved
+  rating:
+    - user: siva.kumar2
+      value: 3.5
+    - user: john.doe
+      value: 2
+    - user: scott.allen
+      value: 2.1
+    - user: brenan.davidson
+      value: 2.6
+  comments:
+    - reviewer:
+        user: micahel
+        date: "08/01/2021"
+        comments:
+          Component looks good, but few suggestions, please consider them. Add
+          proper comments, Add benchmarks , provide proper comments
+    - publisher:
+        user: siva.kumar2
+        date: "08/05/2021"
+        comments:
+          Thanks for your valuable feedback, i will work on it and get back to
+          you
+    - publisher:
+        user: siva.kumar2
+        date: "08/05/2021"
+        comments: I worked on the feedback, please review it again
+    - reviewer:
+        user: micahel
+        date: "08/06/2021"
+        comments: Looks great, approved.
+  description: Full blown sample yaml file that describes about the component
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/chennas/gwc139
+  tags:
+    - java
+    - javascript
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+    - url: https://example.com/group
+      title: Example Group
+      icon: group
+    - url: https://example.com/cloud
+      title: Link with Cloud Icon
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Dashboard
+      icon: dashboard
+    - url: https://example.com/help
+      title: Support
+      icon: help
+    - url: https://example.com/web
+      title: Website
+      icon: web
+    - url: https://example.com/alert
+      title: Alerts
+      icon: alert
+spec:
+  type: service
+  lifecycle: development
+  owner: team-cbre
+  subcomponentOf: artist-lookup
+  providesApis:
+    - spotify
+  consumesApis:
+    - starwars-graphql
+  dependsOn:
+    - component:CBRE-1-order
+    - resource:artists-db
