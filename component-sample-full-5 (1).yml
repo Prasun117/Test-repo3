@@ -12,6 +12,12 @@ metadata:
       value: 2.1
     - user: brenan.davidson
       value: 2.6
+    - user: brenan.davidson
+      value: 3.0
+    - user: brenan.davidson
+      value: 4.0
+    - user: brenan.davidson
+      value: 5.0
   comments:
     - reviewer:
         user: micahel
