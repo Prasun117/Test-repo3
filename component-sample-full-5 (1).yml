@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: component-sample-full-5
   devxstate: Approved
+  avgRating: 3.5
   rating:
     - user: siva.kumar2
       value: 3.5
