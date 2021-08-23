@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: component-sample-full-7
+  name: component-sample-full-9
   devxstate: Approved
   avgRating: 4.2
   rating:
