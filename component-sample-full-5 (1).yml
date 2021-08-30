@@ -46,6 +46,8 @@ metadata:
   tags:
     - java
     - javascript
+  techDocs: https://example.com/ 
+  
   links:
     - url: https://example.com/user
       title: Examples Users
