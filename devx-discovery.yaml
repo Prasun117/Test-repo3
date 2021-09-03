@@ -55,8 +55,8 @@ metadata:
       title: Example Group
       description: description for Example Group 
 spec:
-  type: service
-  lifecycle: development
+  type: utility
+  lifecycle: production
   owner: team-cbre
   subcomponentOf: artist-lookup
   providesApis:
