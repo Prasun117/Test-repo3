@@ -44,16 +44,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/chennas/gwc139
     techdocs-ref: url:https://github.com/chennas/gwc139
-  tags:
-    - java
-    - javascript
-  links:
-    - url: https://example.com/user
-      title: Examples Users
-      description: description for Examples Users
-    - url: https://example.com/group
-      title: Example Group
-      description: description for Example Group 
+  
 spec:
   type: package
   lifecycle: production
