@@ -46,7 +46,7 @@ metadata:
     techdocs-ref: url:https://github.com/chennas/gwc139
   
 spec:
-  type: package
+  type: service
   lifecycle: production
   owner: user:breanna.davison
   subcomponentOf: artist-lookup
