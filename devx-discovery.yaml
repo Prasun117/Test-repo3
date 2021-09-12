@@ -57,7 +57,7 @@ metadata:
 spec:
   type: utility
   lifecycle: production
-  owner: team-cbre
+  owner: user:guest
   subcomponentOf: artist-lookup
   providesApis:
     - spotify
