@@ -55,9 +55,9 @@ metadata:
       title: Example Group
       description: description for Example Group 
 spec:
-  type: package
+  type: service
   lifecycle: production
-  owner: team-cbre
+  owner: Prasun.Mukherjee
   subcomponentOf: artist-lookup
   providesApis:
     - spotify
