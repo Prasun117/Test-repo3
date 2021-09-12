@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Code-library
+kind: Component
 metadata:
   name: dummy-component-progress-code-library
   description: dummy storybook component
@@ -9,6 +9,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-a
+  owner: user:Prasun.mukherjee
   system: artist-engagement-portal
   dependsOn: ['resource:artists-db']
