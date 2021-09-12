@@ -55,7 +55,7 @@ metadata:
       title: Example Group
       description: description for Example Group 
 spec:
-  type: utility
+  type: website
   lifecycle: production
   owner: user:guest
   subcomponentOf: artist-lookup
