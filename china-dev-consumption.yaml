@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
   name: china-dev-consumption
   description: Hello World example for gRPC
 spec:
-  type: grpc
+  type: service
   lifecycle: deprecated
-  owner: team-c
+  owner: Prasun.Mukherjee
   definition: |
     // Copyright 2015 gRPC authors.
     //
