@@ -57,7 +57,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: user:guest
+  owner: user:prasun.mukherjee
   subcomponentOf: artist-lookup
   providesApis:
     - spotify
