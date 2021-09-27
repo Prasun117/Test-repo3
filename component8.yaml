@@ -49,8 +49,8 @@ metadata:
     - javascript
     - test1
   links:
-    - url: https://example.com/user
-      title: Examples Users
+    - url: www.google.com
+      title: google link
       icon: user
     - url: https://example.com/group
       title: Example Group
