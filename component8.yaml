@@ -43,13 +43,15 @@ metadata:
         comments: Looks great, approved.
   description: Full blown sample yaml file that describes about the component
   annotations:
-    backstage.io/techdocs-ref: https://techdoc.com/cbre/component
+    backstage.io/techdocs-ref: https://techdoc.com/cbre/component/component-sample-full-8
   tags:
     - java
     - javascript
+    - angular
+    - react
     
   links:
-    - url: https://www.google.com
+    - url: https://www.google.com/
       title: google link
       icon: user
     - url: https://example.com/group
@@ -71,7 +73,7 @@ metadata:
       title: Alerts
       icon: alert
 spec:
-  type: package
+  type: documentation
   lifecycle: experimental
   owner: team-cbre
   subcomponentOf: artist-lookup
