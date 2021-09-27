@@ -49,7 +49,7 @@ metadata:
     - javascript
    
   links:
-    - url: www.google.com
+    - url: https://www.google.com
       title: google link
       icon: user
     - url: https://example.com/group
