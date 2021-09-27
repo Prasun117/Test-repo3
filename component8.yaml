@@ -47,7 +47,7 @@ metadata:
   tags:
     - java
     - javascript
-    - test1
+   
   links:
     - url: www.google.com
       title: google link
@@ -71,8 +71,8 @@ metadata:
       title: Alerts
       icon: alert
 spec:
-  type: service
-  lifecycle: development
+  type: package
+  lifecycle: experimental
   owner: team-cbre
   subcomponentOf: artist-lookup
   providesApis:
