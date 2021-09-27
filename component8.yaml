@@ -47,7 +47,7 @@ metadata:
   tags:
     - java
     - javascript
-   
+    - tagsTest
   links:
     - url: https://www.google.com
       title: google link
