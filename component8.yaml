@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: component-sample-full-8
-  devxstate: approved
+  devxstate: under review
   avgRating: 4.3
   rating:
     - user: siva.kumar2
@@ -48,7 +48,7 @@ metadata:
     - java
     - javascript 
     - angular
-    
+    -metadata
   links:
     - url: https://www.google.com/dasd
       title: google link test
@@ -62,18 +62,18 @@ metadata:
     - url: https://example.com/dashboard
       title: Test Dashboard
       icon: dashboard
-    - url: https://example.com/help
+    - url: https://devx.cbre.com/help
       title: Support
       icon: help
-    - url: https://example.com/web
+    - url: https://dev.devx.cbre.com/catalog
       title: Website
       icon: web
     - url: https://example.com/alert
       title: Alerts
       icon: alert
 spec:
-  type: open component
-  lifecycle: production
+  type: package
+  lifecycle: experimental
   owner: team-cbre
   subcomponentOf: artist-lookup
   providesApis:
