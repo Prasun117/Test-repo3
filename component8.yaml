@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: component-sample-full-8
-  devxstate: Approved
+  devxstate: under review
   avgRating: 4.3
   rating:
     - user: siva.kumar2
@@ -43,7 +43,7 @@ metadata:
         comments: Looks great, approved.
   description: Full blown sample yaml file that describes about the component
   annotations:
-    backstage.io/techdocs-ref: https://techdoc.com/cbre/component/component-sample-full-8
+    backstage.io/techdocs-ref: https://techdoc.com/cbre/dashboard
   tags:
     - java
     - javascript 
@@ -54,7 +54,7 @@ metadata:
     - url: https://mynameisraj.com/raj
       title: Example Group
       icon: group
-    - url: https://example.com/cloud
+    - url: https://cbre.cloud.com/cloudapp
       title: Link with Cloud Icon
       icon: cloud
     - url: https://example.com/dashboard
