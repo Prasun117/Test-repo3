@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: component-sample-full-8
-  devxstate: under review
+  devxstate: approved
   avgRating: 4.3
   rating:
     - user: siva.kumar2
@@ -43,16 +43,17 @@ metadata:
         comments: Looks great, approved.
   description: Full blown sample yaml file that describes about the component
   annotations:
-    backstage.io/techdocs-ref: https://techdoc.com/cbre/dashboard
+    backstage.io/techdocs-ref: https://techdoc.com/cbre/testcases
   tags:
     - java
     - javascript 
+    - angular
   links:
-    - url: https://www.google.com/
-      title: google link
+    - url: https://www.google.com/dasd
+      title: google link test
       icon: user
     - url: https://mynameisraj.com/raj
-      title: Example Group
+      title: My name is raj
       icon: group
     - url: https://cbre.cloud.com/cloudapp
       title: Link with Cloud Icon
