@@ -48,6 +48,7 @@ metadata:
     - java
     - javascript 
     - angular
+    - metadata
   links:
     - url: https://www.google.com/dasd
       title: google link test
