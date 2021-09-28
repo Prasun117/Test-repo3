@@ -6,9 +6,9 @@ metadata:
   tags:
     - ui
     - react
-    - angular
+    
 spec:
-  type: services
+  type: documentation
   lifecycle: experimental
   owner: user:Prasun.mukherjee
   system: artist-engagement-portal
