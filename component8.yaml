@@ -43,12 +43,14 @@ metadata:
         comments: Looks great, approved.
   description: Full blown sample yaml file that describes about the component
   annotations:
-    backstage.io/techdocs-ref: https://techdoc.com/cbre/testcases
+    backstage.io/techdocs-ref: https://techdoc.com/cbre/testcases/datatest
   tags:
     - java
     - javascript 
     - angular
-    - metadata
+    - react
+    - next.js
+    - go
   links:
     - url: https://www.google.com/dasd
       title: google link test
@@ -72,8 +74,8 @@ metadata:
       title: Alerts
       icon: alert
 spec:
-  type: package
-  lifecycle: experimental
+  type: pacakage test
+  lifecycle: experimentaltest
   owner: team-cbre
   subcomponentOf: artist-lookup
   providesApis:
