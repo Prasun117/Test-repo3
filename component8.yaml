@@ -71,7 +71,7 @@ metadata:
       title: Alerts
       icon: alert
 spec:
-  type: service
+  type: open component
   lifecycle: production
   owner: team-cbre
   subcomponentOf: artist-lookup
