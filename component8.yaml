@@ -46,15 +46,12 @@ metadata:
     backstage.io/techdocs-ref: https://techdoc.com/cbre/component/component-sample-full-8
   tags:
     - java
-    - javascript
-    - angular
-    - react
-    
+    - javascript 
   links:
     - url: https://www.google.com/
       title: google link
       icon: user
-    - url: https://example.com/group
+    - url: https://mynameisraj.com/raj
       title: Example Group
       icon: group
     - url: https://example.com/cloud
@@ -73,8 +70,8 @@ metadata:
       title: Alerts
       icon: alert
 spec:
-  type: documentation
-  lifecycle: experimental
+  type: service
+  lifecycle: production
   owner: team-cbre
   subcomponentOf: artist-lookup
   providesApis:
