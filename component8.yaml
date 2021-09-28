@@ -60,7 +60,7 @@ metadata:
       title: Link with Cloud Icon
       icon: cloud
     - url: https://example.com/dashboard
-      title: Dashboard
+      title: Test Dashboard
       icon: dashboard
     - url: https://example.com/help
       title: Support
